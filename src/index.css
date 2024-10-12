@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@845&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+
+* {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+.lugrasimo-font {
+  font-family: "Lugrasimo", cursive;
+}
+
+.merienda-font{
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 845;
+  font-style: normal;
+}
+
+.scroller::-webkit-scrollbar {
+  width: 5px;
+}
+.scroller::-webkit-scrollbar-thumb {
+  background-color: #FE895E;
+  border-radius: 5px;
+  visibility: hidden;
+}
+.scroller:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #FE895E;
+  border-radius: 5px;
+}
+
+@layer utilities {
+  .scroller {
+    overflow: auto;
+  }
+}

@@ -1,0 +1,18 @@
+body{
+  background-color: #171717;
+}
+
+.custom-title {
+  position: relative;
+}
+
+.custom-title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: -10px;
+  right: 0;
+  border-bottom: 4px solid #FE895E;
+  transform: scaleX(.5);
+}
