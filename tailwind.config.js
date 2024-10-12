@@ -10,12 +10,14 @@ export default {
         colorOrange : "#FE895E",
         colorWhite : "#FFF6F2",
         colorDark : "#171717",
+        shadowColor : "rgba(254, 137, 94, 0.2)"
       },
       textShadow: {
         'default': '2px 2px 4px rgba(0, 0, 0, 0.3)',
         'md': '4px 4px 6px rgba(0, 0, 0, 0.4)',
         'lg': '6px 6px 8px rgba(0, 0, 0, 0.5)',
       },
+
     },
   },
   plugins: [

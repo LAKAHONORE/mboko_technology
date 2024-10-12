@@ -18,7 +18,7 @@ export default function Hero(){
           </p>
 
           <div className="mt-[80px]">
-            <Link className="bg-colorOrange border-[1px] border-colorOrange py-4 px-8 font-semibold text-colorWhite rounded-md hover:bg-transparent hover:text-colorWhite transition" to={''}>
+            <Link className="bg-colorOrange border-[1px] border-colorOrange py-3 px-6 md:py-5 md:px-8 font-semibold text-colorWhite rounded-md hover:bg-transparent hover:text-colorWhite transition" to={''}>
               En savoir plus
             </Link>
           </div>

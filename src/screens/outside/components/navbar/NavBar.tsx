@@ -46,7 +46,7 @@ export default function NavBar(){
           </li>
 
           <li className="text-colorWhite font-semibold cursor-pointer transition">
-            <NavLink className="border-[1px] border-colorOrange py-3 px-4 hover:border-colorOrange hover:bg-colorOrange hover:text-colorWhite rounded-md transition" to={''}>
+            <NavLink className="border-[1px] border-colorOrange py-3 px-6 md:py-3 md:px-4 hover:border-colorOrange hover:bg-colorOrange hover:text-colorWhite rounded-md transition" to={''}>
               Lancez votre projet
             </NavLink>
           </li>
@@ -96,7 +96,7 @@ export default function NavBar(){
             </NavLink>
           </li>
 
-          <li className="text-colorWhite font-semibold border-[1px] border-colorWhite py-3 px-4 hover:border-colorOrange hover:bg-colorOrange hover:text-colorWhite rounded-md cursor-pointer transition">
+          <li className="text-colorWhite font-semibold border-[1px] border-colorWhite py-3 px-6 md:py-5 md:px-8 hover:border-colorOrange hover:bg-colorOrange hover:text-colorWhite rounded-md cursor-pointer transition">
             <NavLink to={''}>
               Lancez votre projet
             </NavLink>

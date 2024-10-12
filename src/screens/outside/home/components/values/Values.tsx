@@ -3,8 +3,8 @@ import { IoIosQuote } from "react-icons/io";
 export default function Values() {
   return (
     <>
-      <div className="w-full justify-center bg-colorDark mb-6 px-2">
-        <div className="flex flex-row justify-center w-full py-6">
+      <div className="w-full justify-center bg-colorDark mb-20 px-2">
+        <div className="flex flex-row justify-center w-full py-6 mb-6">
           <h1 className="text-xl md:text-3xl font-semibold text-colorWhite">
             <span className="custom-title">Pourquoi nous choisir ?</span>
           </h1>
