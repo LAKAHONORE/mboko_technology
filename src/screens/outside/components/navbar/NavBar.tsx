@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import Dropdown from "./dropdown/Dropdown";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
+import './style.css';
 
 
 
@@ -11,7 +12,7 @@ export default function NavBar(){
   return (
     <>
       <nav className="flex flex-row w-full h-16 top-0 sticky bg-colorDark justify-between items-center px-4 z-50">
-        <NavLink className="flex flex-row gap-2 items-center text-colorWhite font-semibold" to={''}>
+        <NavLink className="flex flex-row gap-2 items-center text-colorWhite font-semibold" to={'/'}>
           <img src="/assets/react-logo.png" alt="logo" className="w-10 md:w-14" />
           <span className="hidden md:block merienda-font">
             Digital Shift
@@ -19,14 +20,14 @@ export default function NavBar(){
         </NavLink>
 
         <ul className="hidden md:flex justify-center items-center flex-row gap-4">
-          <li className="text-colorOrange font-semibold cursor-pointer">
-            <NavLink to={''}>
+          <li className="text-colorWhite hover:text-colorOrange  font-semibold cursor-pointer">
+            <NavLink to={'/'}>
               Accueil
             </NavLink>
           </li>
 
           <li className="text-colorWhite font-semibold hover:text-colorOrange cursor-pointer  transition">
-            <NavLink to={''}>
+            <NavLink to={'/about'}>
               A Propos
             </NavLink>
           </li>
@@ -34,19 +35,19 @@ export default function NavBar(){
           <Dropdown />
 
           <li className="text-colorWhite font-semibold hover:text-colorOrange cursor-pointer  transition">
-            <NavLink to={''}>
+            <NavLink to={'/solutions'}>
               Solutions
             </NavLink>
           </li>
 
           <li className="text-colorWhite font-semibold hover:text-colorOrange cursor-pointer  transition">
-            <NavLink to={''}>
+            <NavLink to={'/realisations'}>
               Réalisations
             </NavLink>
           </li>
 
           <li className="text-colorWhite font-semibold cursor-pointer transition">
-            <NavLink className="border-[1px] border-colorOrange py-3 px-6 md:py-3 md:px-4 hover:border-colorOrange hover:bg-colorOrange hover:text-colorWhite rounded-md transition" to={''}>
+            <NavLink className="border-[1px] border-colorOrange py-3 px-6 md:py-3 md:px-4 hover:border-colorOrange hover:bg-colorOrange hover:text-colorWhite rounded-md transition" to={'/new-project'}>
               Lancez votre projet
             </NavLink>
           </li>
@@ -71,13 +72,13 @@ export default function NavBar(){
  
 
           <li className="text-colorOrange font-semibold">
-            <NavLink to={''}>
+            <NavLink to={'/'}>
               Accueil
             </NavLink>
           </li>
 
           <li className="text-colorWhite font-semibold hover:text-colorOrange transition">
-            <NavLink to={''}>
+            <NavLink to={'/about'}>
               A Propos
             </NavLink>
           </li>
@@ -85,19 +86,19 @@ export default function NavBar(){
           <Dropdown />
 
           <li className="text-colorWhite font-semibold hover:text-colorOrange transition">
-            <NavLink to={''}>
+            <NavLink to={'/solutions'}>
               Solutions
             </NavLink>
           </li>
 
           <li className="text-colorWhite font-semibold hover:text-colorOrange transition">
-            <NavLink to={''}>
+            <NavLink to={'/realisations'}>
               Réalisations
             </NavLink>
           </li>
 
           <li className="text-colorWhite font-semibold border-[1px] border-colorWhite py-3 px-6 md:py-5 md:px-8 hover:border-colorOrange hover:bg-colorOrange hover:text-colorWhite rounded-md cursor-pointer transition">
-            <NavLink to={''}>
+            <NavLink to={'/new-project'}>
               Lancez votre projet
             </NavLink>
           </li>

@@ -12,7 +12,7 @@ export default function Values() {
 
         <div className="block md:flex flex-row gap-2 ">
 
-          <div className="p-5">
+          <div className="p-5 animate__animated animate__slideInLeft">
             <h1>
               <div className="flex-row">
                 <IoIosQuote className="text-colorOrange text-[30px]" />
@@ -24,7 +24,7 @@ export default function Values() {
             </h1>
           </div>
 
-          <div className="p-5">
+          <div className="p-5 animate__animated animate__backInUp">
             <h1>
               <div className="flex-row">
                 <IoIosQuote className="text-colorOrange text-[30px]" />
@@ -36,7 +36,7 @@ export default function Values() {
             </h1>
           </div>
 
-          <div className="p-5">
+          <div className="p-5 animate__animated animate__slideInRight">
             <h1>
               <div className="flex-row">
                 <IoIosQuote className="text-colorOrange text-[30px]" />

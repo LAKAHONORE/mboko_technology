@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function Hero(){
   return(
     <>
-      <div className="flex justify-center items-center w-full h-[500px] md:h-[800px] overflow-hidden bg-no-repeat bg-cover bg-center" style={{backgroundImage : "url('/assets/hero1.2.jpg')"}}>
-        <div className="absolute w-full h-[500px] md:h-[800px] mt-16 inset-0 bg-gradient-to-b from-transparent to-colorDark"></div>
+      <div className="flex justify-center items-center w-full h-[500px] md:h-[800px] overflow-hidden bg-no-repeat bg-cover bg-center" style={{backgroundImage : "url('/assets/hero1.3.jpg')"}}>
+        <div className="absolute w-full h-[500px] md:h-[800px] mt-16 inset-0 bg-gradient-to-r from-colorDark to-transparent"></div>
         
         <div className="absolute flex flex-col justify-center items-center md:items-start md:ml-24">
           <h4 className="text-2xl text-center text-colorWhite md:text-[50px] font-bold mb-5 text-shadow-lg animate__animated animate__bounce merienda-font">Digital Shift</h4>

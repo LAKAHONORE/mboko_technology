@@ -10,7 +10,8 @@ export default {
         colorOrange : "#FE895E",
         colorWhite : "#FFF6F2",
         colorDark : "#171717",
-        shadowColor : "rgba(254, 137, 94, 0.2)"
+        shadowColor : "rgba(254, 137, 94, 0.2)",
+        shadowColorActive : "rgba(254, 137, 94, 0.4)"
       },
       textShadow: {
         'default': '2px 2px 4px rgba(0, 0, 0, 0.3)',
