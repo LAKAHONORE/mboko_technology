@@ -16,7 +16,7 @@ export default function Footer() {
 
         <div className="flex flex-row justify-center items-center w-full bg-gray-950 text-colorWhite">
           <span className="text-[10px]">
-            Designed by <a className="hover:text-colorOrange" href="#">© Digital Shift</a>
+            Designed by <a className="hover:text-colorOrange" href="#">© MBOKO-TECHNOLOGY</a>
           </span>
           <span className="text-[10px]">
             . All Rights Reserved

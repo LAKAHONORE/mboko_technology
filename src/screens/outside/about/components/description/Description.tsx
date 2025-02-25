@@ -4,7 +4,7 @@ export default function Description() {
       <div className="w-full md:flex flex-col md:w-1/2">
         <div className="flex flex-col justify-center items-center mb-4">
           <h1 className="text-colorOrange text-xl font-semibold">
-            <span className="merienda-font text-2xl">Digital Shift</span>
+            <span className="merienda-font text-2xl">MBOKO-TECHNOLOGY</span>
           </h1>
           <p className="w-full text-center md:w-[80%] text-colorWhite">
             est une agence digitale spécialisée dans la prestation de services informatiques et solutions numériques.

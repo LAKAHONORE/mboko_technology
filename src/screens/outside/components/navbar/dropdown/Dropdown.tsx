@@ -3,13 +3,13 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { NavLink } from "react-router-dom";
 
 
-export default function Dropdown(){
+export default function Dropdown() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <li>
-      <button className="flex flex-row items-center text-colorWhite font-semibold hover:text-colorOrange transition" onClick={()=>setIsOpen(!isOpen)}>
-        Services 
+      <button className="flex flex-row items-center text-colorWhite font-semibold hover:text-colorOrange transition" onClick={() => setIsOpen(!isOpen)}>
+        Services
 
         {isOpen ? (
           <IoIosArrowUp className="ml-1" />
@@ -27,7 +27,7 @@ export default function Dropdown(){
           </li>
 
           <li className="text-colorWhite  hover:text-colorOrange mt-5 transition">
-            <NavLink to={'//servicedeveloppement-mobile'}>
+            <NavLink to={'/servicedeveloppement-mobile'}>
               Développement mobiles
             </NavLink>
           </li>

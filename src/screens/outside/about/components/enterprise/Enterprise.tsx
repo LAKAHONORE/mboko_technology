@@ -1,7 +1,7 @@
 import { useState } from "react"
 import './style.css';
 
-export default function () {
+export default function Enterprise() {
   const [activeMission, setActiveMission] = useState(true);
   const [activeValues, setActiveValues] = useState(false);
   const [activeStory, setActiveStory] = useState(false);
@@ -40,7 +40,7 @@ export default function () {
 
         <div className="flex flex-col md:flex md:flex-row gap-4 my-4 px-4">
 
-          <div className="w-full md:w-2/5 animate-bounce">
+          <div className="w-full md:w-2/5 img_translate">
             <img src="/assets/toKnow2.png" alt="" />
           </div>
 
@@ -64,8 +64,8 @@ export default function () {
 
             <div className="row mt-8">
               {activeMission && (
-                <p className="text-justify text-colorWhite animate__animated animate__slideInRight">
-                   Chez <span className="merienda-font text-colorOrange">Digital Shift</span>, nous avons pour mission de fournir des solutions informatiques innovantes et sur mesure,
+                <p className="text-justify text-colorWhite ">
+                   Chez <span className="merienda-font text-colorOrange">MBOKO-TECHNOLOGY</span>, nous avons pour mission de fournir des solutions informatiques innovantes et sur mesure,
                     adaptées aux besoins spécifiques de chaque client. Nous croyons fermement que la technologie peut transformer les entreprises et améliorer leur efficacité,
                      en leur permettant de relever les défis contemporains avec agilité et créativité.
 
@@ -82,8 +82,8 @@ export default function () {
               )}
 
               {activeValues && (
-                <p className="text-justify text-colorWhite animate__animated animate__slideInRight">
-                  Chez <span className="merienda-font text-colorOrange">Digital Shift</span>, nos valeurs fondamentales guident chacune de nos actions et décisions. Nous croyons en l'intégrité,
+                <p className="text-justify text-colorWhite ">
+                  Chez <span className="merienda-font text-colorOrange">MBOKO-TECHNOLOGY</span>, nos valeurs fondamentales guident chacune de nos actions et décisions. Nous croyons en l'intégrité,
                   ce qui signifie que nous agissons toujours avec honnêteté et transparence dans nos relations avec nos clients, nos partenaires et nos employés. 
                   La collaboration est également au cœur de notre philosophie ; nous travaillons main dans la main avec nos clients pour co-créer des solutions qui
                   répondent véritablement à leurs besoins. L'innovation est une autre valeur essentielle : nous nous efforçons d'être à la pointe des nouvelles technologies
@@ -96,8 +96,8 @@ export default function () {
              
 
               {activeStory && (
-                <p className="text-justify text-colorWhite animate__animated animate__slideInRight">
-                   Fondée en 2021, <span className="merienda-font text-colorOrange">Digital Shift</span> a débuté avec une vision audacieuse : révolutionner le secteur des services
+                <p className="text-justify text-colorWhite ">
+                   Fondée en 2021, <span className="merienda-font text-colorOrange">MBOKO-TECHNOLOGY</span> a débuté avec une vision audacieuse : révolutionner le secteur des services
                   informatiques en offrant des solutions accessibles et adaptées aux besoins des entreprises de toutes tailles. Notre aventure a commencé 
                   dans un petit bureau, avec une équipe passionnée déterminée à faire une différence. Au fil des années, nous avons connu une croissance 
                   significative, élargissant notre expertise et notre gamme de services pour inclure le développement de logiciels, la gestion de 

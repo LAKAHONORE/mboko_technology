@@ -8,7 +8,7 @@ export default function Enterprise() {
           <img src="/assets/react-logo.png" alt="" />
         </div>
         <h1 className="text-xl font-semibold">
-          <span className="text-colorWhite merienda-font">Digital Shift</span>
+          <span className="text-colorWhite merienda-font">MBOKO-TECHNOLOGY</span>
         </h1>
 
         <div className="block md:flex flex-row gap-2 w-[100%] mt-3">

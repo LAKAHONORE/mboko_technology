@@ -1,4 +1,5 @@
 import { IoIosLink } from "react-icons/io";
+import { NavLink } from "react-router-dom";
 
 export default function Links() {
   return (
@@ -12,28 +13,28 @@ export default function Links() {
           <span>
             <IoIosLink className="text-colorOrange" />
           </span>
-          <a className="text-colorWhite hover:text-colorOrange transition" href="">Accueil</a>
+          <NavLink className="text-colorWhite hover:text-colorOrange transition" to="">Accueil</NavLink>
         </div>
 
         <div className="flex flex-row gap-2 justify-center items-center my-2">
           <span>
             <IoIosLink  className="text-colorOrange" />
           </span>
-          <a className="text-colorWhite hover:text-colorOrange transition" href="">A Propos</a>
+          <NavLink className="text-colorWhite hover:text-colorOrange transition" to="">A Propos</NavLink>
         </div>
 
         <div className="flex flex-row gap-2 justify-center items-center my-2">
           <span>
             <IoIosLink  className="text-colorOrange" />
           </span>
-          <a className="text-colorWhite hover:text-colorOrange transition" href="">Solutions</a>
+          <NavLink className="text-colorWhite hover:text-colorOrange transition" to="">Solutions</NavLink>
         </div>
 
         <div className="flex flex-row gap-2 justify-center items-center my-2">
           <span>
             <IoIosLink  className="text-colorOrange" />
           </span>
-          <a className="text-colorWhite hover:text-colorOrange transition" href="">Réalisations</a>
+          <NavLink className="text-colorWhite hover:text-colorOrange transition" to="">Réalisations</NavLink>
         </div>
 
       </div>
