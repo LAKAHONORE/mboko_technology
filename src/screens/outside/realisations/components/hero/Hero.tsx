@@ -2,7 +2,7 @@
 export default function Hero() {
   return (
     <>
-      <div className="flex justify-center items-center w-full h-[200px] md:h-[400px] overflow-hidden bg-no-repeat bg-cover bg-center" style={{ backgroundImage: "url('/assets/realisations_hero.jpg')" }}>
+      <div className="flex justify-center items-center w-full h-[200px] md:h-[400px] overflow-hidden bg-no-repeat bg-cover bg-center" style={{ backgroundImage: "url('/assets/hero_realisation.webp')" }}>
         <div className="absolute w-full h-[200px] md:h-[400px] mt-16 inset-0 bg-gradient-to-l from-colorDark to-transparent"></div>
 
         <div className="absolute flex flex-col md:items-start md:ml-24">

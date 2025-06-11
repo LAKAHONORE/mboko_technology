@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { AiOutlineSend } from "react-icons/ai";
 
 export default function ContactForm() {
-  const message  = 'Bonjour, j\'aimerais avoir plus d\'informations s\'il vous plaît!';
+  const message  = 'Bonjour, j\'aimerais avoir plus d\'informations sur vos poduits et services s\il vous plaît!';
   const whatsappUrl = `https://wa.me/237656587406?text=${encodeURIComponent(message)}`;
   const qrRef = useRef<HTMLDivElement>(null);
 
@@ -125,7 +125,7 @@ export default function ContactForm() {
                   <div className="flex flex-col">
                     <label className="text-colorWhite text-sm md:text-xl">Nom :</label>
                     <input 
-                      className="p-2 md:p-4 outline-none shadow-lg shadow-shadowColor text-colorWhite placeholder:text-sm placeholder-gray-300 md:my-5 rounded-md"
+                      className="p-2 md:p-4 outline-none shadow-lg shadow-shadowColor text-colorWhite placeholder:text-sm placeholder-gray-300 md:my-5 rounded-md focus:border-[2px] focus:border-colorOrange transition-all"
                       type="text"
                       value={name}
                       onChange={(e)=>setName(e.target.value)}
@@ -137,7 +137,7 @@ export default function ContactForm() {
                   <div className="flex flex-col">
                     <label className="text-colorWhite text-sm md:text-xl">Adresse email :</label>
                     <input 
-                      className="p-2 md:p-4 outline-none shadow-lg shadow-shadowColor text-colorWhite placeholder:text-sm placeholder-gray-300 md:my-5 rounded-md"
+                      className="p-2 md:p-4 outline-none shadow-lg shadow-shadowColor text-colorWhite placeholder:text-sm placeholder-gray-300 md:my-5 rounded-md focus:border-[2px] focus:border-colorOrange transition-all"
                       type="text" 
                       value={email}
                       placeholder="johndoe@gmail.com" 
@@ -151,7 +151,7 @@ export default function ContactForm() {
                   <div className="flex flex-col">
                     <label className="text-colorWhite text-sm md:text-xl">Numéro de téléphone :</label>
                     <input 
-                      className="p-2 md:p-4 outline-none shadow-lg shadow-shadowColor text-colorWhite placeholder:text-sm placeholder-gray-300 md:my-5 rounded-md"
+                      className="p-2 md:p-4 outline-none shadow-lg shadow-shadowColor text-colorWhite placeholder:text-sm placeholder-gray-300 md:my-5 rounded-md focus:border-[2px] focus:border-colorOrange transition-all"
                       type="text"
                       value={phone} 
                       placeholder="John doe" 
@@ -163,7 +163,7 @@ export default function ContactForm() {
                   <div className="flex flex-col">
                     <label className="text-colorWhite text-sm md:text-xl">Objet :</label>
                     <input 
-                      className="p-2 md:p-4 outline-none shadow-lg shadow-shadowColor text-colorWhite placeholder:text-sm placeholder-gray-300 md:my-5 rounded-md"
+                      className="p-2 md:p-4 outline-none shadow-lg shadow-shadowColor text-colorWhite placeholder:text-sm placeholder-gray-300 md:my-5 rounded-md focus:border-[2px] focus:border-colorOrange transition-all"
                       type="text" value={objet}
                       placeholder="johndoe@gmail.com"
                       onChange={(e)=>setObjet(e.target.value)}
@@ -178,7 +178,7 @@ export default function ContactForm() {
                     <label className="text-colorWhite text-sm md:text-xl">Message :</label>
 
                     <textarea 
-                      className="p-4 outline-none shadow-lg shadow-shadowColor text-colorWhite placeholder-gray-300 md:md:my-5 rounded-md"
+                      className="p-4 outline-none shadow-lg shadow-shadowColor text-colorWhite placeholder-gray-300 md:md:my-5 rounded-md focus:border-[2px] focus:border-colorOrange transition-all"
                       value={msg}
                       rows={5}
                       onChange={(e)=>setMsg(e.target.value)}

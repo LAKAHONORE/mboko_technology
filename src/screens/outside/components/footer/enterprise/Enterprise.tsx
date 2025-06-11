@@ -5,7 +5,7 @@ export default function Enterprise() {
     <>
       <div className="flex flex-col justify-center items-start my-4">
         <div className="flex">
-          <img src="/assets/react-logo.png" alt="" />
+          <img src="/assets/logo.webp" className="w-36" alt="" />
         </div>
         <h1 className="text-xl font-semibold">
           <span className="text-colorWhite merienda-font">MBOKO-TECHNOLOGY</span>
