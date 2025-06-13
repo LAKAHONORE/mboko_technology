@@ -5,6 +5,8 @@ import NotFound from "../src/screens/404/NotFound";
 import Realisations from "../src/screens/outside/realisations/Realisations";
 import Contact from "../src/screens/outside/contact/Contact";
 import Devis from "../src/screens/outside/devis/Devis";
+import Marketing from "../src/screens/outside/services/marketing/Marketing";
+import WebDevelopment from "../src/screens/outside/services/web-development/WebDevelopment";
 
 const routes = createBrowserRouter([
   {
@@ -29,6 +31,16 @@ const routes = createBrowserRouter([
   {
     path: "/lancer-un-projet",
     element: <Devis />
+  },
+
+  {
+    path: "/service/marketing",
+    element: <Marketing />
+  },
+
+  {
+    path: "/service/web-development",
+    element: <WebDevelopment />
   },
 
   {

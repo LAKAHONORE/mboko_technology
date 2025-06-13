@@ -21,13 +21,13 @@ export default function Dropdown() {
       {isOpen && (
         <ul className="md:absolute sm:relative z-10 py-4 bg-colorDark p-2 mx-1 rounded-md">
           <li className="text-colorWhite hover:text-colorOrange mt-5 transition">
-            <NavLink to={'/service/developpemnt-web'}>
+            <NavLink to={'/service/web-development'}>
               Développement et création web
             </NavLink>
           </li>
 
           <li className="text-colorWhite  hover:text-colorOrange mt-5 transition">
-            <NavLink to={'/servicedeveloppement-mobile'}>
+            <NavLink to={'/service/mobile-development'}>
               Développement mobiles
             </NavLink>
           </li>
