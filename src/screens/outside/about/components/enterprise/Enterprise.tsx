@@ -30,9 +30,9 @@ export default function Enterprise() {
 
   return (
     <>
-      <div className="w-full justify-center bg-colorDark mb-20 px-2">
+      <div className="w-full justify-center bg-colorWhite dark:bg-colorDark pb-20 px-2">
         <div className="flex flex-row justify-center w-full py-6 mb-6">
-          <h1 className="text-xl md:text-3xl font-semibold text-colorWhite">
+          <h1 className="text-xl md:text-3xl font-semibold text-colorDark dark:text-colorWhite">
             <span className="custom-title">Ce que vous devez savoir !</span>
           </h1>
         </div>
@@ -48,15 +48,15 @@ export default function Enterprise() {
           <div className="w-full flex flex-col md:w-3/5">
               <div className="flex flex-row gap-4 top-0">
                 <div className="">
-                  <h1 className={`text-sm md:text-xl font-bold cursor-pointer ${activeMission ? 'underline-animation text-colorOrange' : 'text-colorWhite'} transition-all`} onClick={()=>(handleChangeActive(1))}>Notre mission</h1>
+                  <h1 className={`text-sm md:text-xl font-bold cursor-pointer ${activeMission ? 'underline-animation text-colorOrange' : 'text-colorDark dark:text-colorWhite'} transition-all`} onClick={()=>(handleChangeActive(1))}>Notre mission</h1>
                 </div>
 
                 <div className="">
-                  <h1 className={`text-sm md:text-xl font-bold cursor-pointer ${activeValues ? 'underline-animation text-colorOrange' : 'text-colorWhite'} transition-all`} onClick={()=>(handleChangeActive(2))}>Nos valeurs</h1>
+                  <h1 className={`text-sm md:text-xl font-bold cursor-pointer ${activeValues ? 'underline-animation text-colorOrange' : 'text-colorDark dark:text-colorWhite'} transition-all`} onClick={()=>(handleChangeActive(2))}>Nos valeurs</h1>
                 </div>
 
                 <div className="">
-                  <h1 className={`text-sm md:text-xl font-bold cursor-pointer ${activeStory ? 'underline-animation text-colorOrange' : 'text-colorWhite'} transition-all`} onClick={()=>(handleChangeActive(3))}>Notre histoire</h1>
+                  <h1 className={`text-sm md:text-xl font-bold cursor-pointer ${activeStory ? 'underline-animation text-colorOrange' : 'text-colorDark dark:text-colorWhite'} transition-all`} onClick={()=>(handleChangeActive(3))}>Notre histoire</h1>
                 </div>
               </div>
 
@@ -64,7 +64,7 @@ export default function Enterprise() {
 
             <div className="row mt-8">
               {activeMission && (
-                <p className="text-justify text-colorWhite ">
+                <p className="text-justify text-colorDark dark:text-colorWhite">
                    Chez <span className="merienda-font text-colorOrange">MBOKO-TECHNOLOGY</span>, nous avons pour mission de fournir des solutions informatiques innovantes et sur mesure,
                     adaptées aux besoins spécifiques de chaque client. Nous croyons fermement que la technologie peut transformer les entreprises et améliorer leur efficacité,
                      en leur permettant de relever les défis contemporains avec agilité et créativité.
@@ -82,7 +82,7 @@ export default function Enterprise() {
               )}
 
               {activeValues && (
-                <p className="text-justify text-colorWhite ">
+                <p className="text-justify text-colorDark dark:text-colorWhite">
                   Chez <span className="merienda-font text-colorOrange">MBOKO-TECHNOLOGY</span>, nos valeurs fondamentales guident chacune de nos actions et décisions. Nous croyons en l'intégrité,
                   ce qui signifie que nous agissons toujours avec honnêteté et transparence dans nos relations avec nos clients, nos partenaires et nos employés. 
                   La collaboration est également au cœur de notre philosophie ; nous travaillons main dans la main avec nos clients pour co-créer des solutions qui
@@ -96,7 +96,7 @@ export default function Enterprise() {
              
 
               {activeStory && (
-                <p className="text-justify text-colorWhite ">
+                <p className="text-justify text-colorDark dark:text-colorWhite">
                    Fondée en 2021, <span className="merienda-font text-colorOrange">MBOKO-TECHNOLOGY</span> a débuté avec une vision audacieuse : révolutionner le secteur des services
                   informatiques en offrant des solutions accessibles et adaptées aux besoins des entreprises de toutes tailles. Notre aventure a commencé 
                   dans un petit bureau, avec une équipe passionnée déterminée à faire une différence. Au fil des années, nous avons connu une croissance 

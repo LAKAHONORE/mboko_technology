@@ -7,11 +7,12 @@ import Contact from "../src/screens/outside/contact/Contact";
 import Devis from "../src/screens/outside/devis/Devis";
 import Marketing from "../src/screens/outside/services/marketing/Marketing";
 import WebDevelopment from "../src/screens/outside/services/web-development/WebDevelopment";
+import MobileDevelopment from "../src/screens/outside/services/mobile-development/MobileDevelopment";
 
 const routes = createBrowserRouter([
   {
     path: "/",
-    element : <Home />,
+    element: <Home />,
   },
   {
     path: "/about",
@@ -41,6 +42,11 @@ const routes = createBrowserRouter([
   {
     path: "/service/web-development",
     element: <WebDevelopment />
+  },
+
+  {
+    path: "/service/mobile-development",
+    element: <MobileDevelopment />
   },
 
   {

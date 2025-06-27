@@ -4,9 +4,9 @@ import Image from "../../../about/components/image/Image";
 export default function AboutComponent() {
   return (
     <>
-      <div className="w-full justify-center bg-colorDark mb-16 px-2">
+      <div className="w-full justify-center bg-colorWhite dark:bg-colorDark pb-16 px-2">
         <div className="flex flex-row justify-center w-full py-6 mb-12 md:mb-20">
-          <h1 className="text-xl md:text-3xl font-semibold text-colorWhite">
+          <h1 className="text-xl md:text-3xl font-semibold dark:text-colorWhite text-colorDark">
             <span className="custom-title">Qui sommes-nous ?</span>
           </h1>
         </div>

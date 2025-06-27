@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <>
       <div className="flex justify-center items-center w-full h-[600px] md:h-[800px] overflow-hidden bg-no-repeat bg-cover bg-center animate__animated animate__fadeIn" style={{ backgroundImage: "url('/assets/hero.webp')" }}>
-        <div className="absolute w-full h-[600px] md:h-[800px] mt-16 inset-0 bg-gradient-to-r from-colorDark to-transparent"></div>
+        <div className="absolute w-full h-[600px] md:h-[800px] mt-[88px] inset-0 bg-gradient-to-r from-colorDark to-transparent"></div>
 
         <div className="absolute flex flex-row w-full px-6">
           <div className="flex flex-col w-full justify-center items-center md:justify-start md:items-start">

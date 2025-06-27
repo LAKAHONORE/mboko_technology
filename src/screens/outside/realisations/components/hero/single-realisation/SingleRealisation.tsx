@@ -13,7 +13,7 @@ export default function SingleRealisation() {
   modal && (
       <div className="modalRealisation">
 
-        <div className="w-[95%] h-[95%] bg-gray-800 content-modal text-white overflow-y-scroll rounded-md" >
+        <div className="w-[95%] h-[95%] bg-[#f1f1f1] dark:bg-gray-800 content-modal text-colorDark dark:text-white overflow-y-scroll rounded-md" >
           <div className="flex flex-row w-full justify-end items-end p-4">
             <AiOutlineClose size={25} className="text-colorOrange font-bold cursor-pointer hover:scale-125 duration-200" onClick={() => setModal(false)} />
           </div>
@@ -51,17 +51,17 @@ export default function SingleRealisation() {
   )
 }
 
-      <div className="flex flex-col justify-center items-center shadow-lg shadow-shadowColor hover:shadow-shadowColorActive rounded-md transition overflow-hidden">
+      <div className="flex flex-col justify-center dark:bg-colorDark bg-[#f1f1f1] items-center shadow-lg shadow-shadowColor hover:shadow-shadowColorActive rounded-md transition overflow-hidden">
         <img src="/assets/aboutComponent.jpg" className="hover:scale-105 duration-300" alt="" />
 
         <h1 className="text-xl font-semibold text-colorOrange my-6">
           Réalisation 1
         </h1>
-        <p className="text-center text-colorWhite">
+        <p className="text-center text-colorDark dark:text-white">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. In possimus ipsam obcaecati nobis, reiciendis sit dignissimos earum voluptatum doloremque provident quis inventore aliquid placeat rerum cumque, ipsa, laboriosam sint temporibus!
         </p>
 
-        <button className="border-[1px] border-colorOrange text-colorWhite px-4 py-2 my-6 hover:bg-colorOrange rounded-md transition-all" onClick={()=>setModal(true)}>
+        <button className="border-[1px] border-colorOrange text-colorDark dark:text-white px-4 py-2 my-6 hover:bg-colorOrange rounded-md transition-all" onClick={()=>setModal(true)}>
           En savoir plus
         </button>
       </div>
