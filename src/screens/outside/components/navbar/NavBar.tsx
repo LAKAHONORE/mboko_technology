@@ -96,7 +96,7 @@ export default function NavBar() {
                     <li>
                       <button type="button" className="flex flex-row items-center gap-x-2" onClick={()=>handleThemeChange(`light`)}>
                         <IoMdSunny className="text-2xl dark:text-colorWhitetext-colorDark dark:text-colorWhite animate__animated animate__fadeIn" />
-                        <span className="hover:text-colorOrange transition">Mode claire</span>
+                        <span className="text-colorDark dark:text-colorWhite dark font-semibold hover:text-colorOrange transition">Mode claire</span>
                       </button>
                     </li>
 
@@ -104,7 +104,7 @@ export default function NavBar() {
                     <li>
                       <button type="button" className="flex flex-row items-center gap-x-2" onClick={()=>handleThemeChange(`dark`)}>
                         <IoMdMoon className="text-2xl" />
-                        <span className="hover:text-colorOrange transition">Mode sombre</span>
+                        <span className="text-colorDark dark:text-colorWhite font-semibold hover:text-colorOrange transition">Mode sombre</span>
                       </button>
                     </li>
                   </ul>

@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import ContactForm from "../about/components/contact-form/ContactForm";
-import Footer from "../components/footer/Footer";
-import NavBar from "../components/navbar/NavBar";
 import HeroContact from "./components/hero/HeroContact";
 import Loader from "../../loder/Loader";
 
@@ -28,10 +26,8 @@ export default function Contact() {
                     <Loader />
                 ) : (
                     <>
-                        <NavBar />
                         <HeroContact />
                         <ContactForm />
-                        <Footer />
                     </>
                 )
             }

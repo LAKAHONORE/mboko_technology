@@ -8,50 +8,59 @@ import Devis from "../src/screens/outside/devis/Devis";
 import Marketing from "../src/screens/outside/services/marketing/Marketing";
 import WebDevelopment from "../src/screens/outside/services/web-development/WebDevelopment";
 import MobileDevelopment from "../src/screens/outside/services/mobile-development/MobileDevelopment";
+import Layout from "../src/screens/outside/Layout";
 
 const routes = createBrowserRouter([
   {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/about",
-    element: <About />
-  },
+    path: '/',
+    element: <Layout />,
+    children: [
 
-  {
-    path: "/realisations",
-    element: <Realisations />
-  },
+      {
+        index: true,
+        element: <Home />,
+      },
+      {
+        path: "/about",
+        element: <About />
+      },
+    
+      {
+        path: "/realisations",
+        element: <Realisations />
+      },
+    
+      {
+        path: "/contact",
+        element: <Contact />
+      },
+    
+      {
+        path: "/lancer-un-projet",
+        element: <Devis />
+      },
+    
+      {
+        path: "/service/marketing",
+        element: <Marketing />
+      },
+    
+      {
+        path: "/service/web-development",
+        element: <WebDevelopment />
+      },
+    
+      {
+        path: "/service/mobile-development",
+        element: <MobileDevelopment />
+      },
+    
+      {
+        path: "*",
+        element: <NotFound />
+      }
 
-  {
-    path: "/contact",
-    element: <Contact />
-  },
-
-  {
-    path: "/lancer-un-projet",
-    element: <Devis />
-  },
-
-  {
-    path: "/service/marketing",
-    element: <Marketing />
-  },
-
-  {
-    path: "/service/web-development",
-    element: <WebDevelopment />
-  },
-
-  {
-    path: "/service/mobile-development",
-    element: <MobileDevelopment />
-  },
-
-  {
-    path: "*",
-    element: <NotFound />
+    ]
   }
 ]);
 

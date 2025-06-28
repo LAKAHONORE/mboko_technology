@@ -113,13 +113,13 @@ export default function DevisComponent() {
 
 
                     <div className="flex flex-row w-full justify-center items-center gap-6 my-6">
-                        <span className={`font-semibold ${!switchDiv && 'text-colorOrange'}`}>Entreprise</span>
+                        <span className={`font-semibold ${!switchDiv ? 'text-colorOrange' : 'text-colorDark dark:text-colorWhite'}`}>Entreprise</span>
 
                         <div className="flex h-8 w-16 bg-[#f1f1f1] dark:bg-gray-600 justify-start items-center rounded-full cursor-pointer" onClick={() => setSwitch(!switchDiv)}>
                             <div className={`flex h-6 w-6 bg-colorOrange rounded-full ${switchDiv ? 'translate-x-[40px] duration-300' : 'translate-x-0 duration-300'}`}>
                             </div>
                         </div>
-                        <span className={`font-semibold ${switchDiv && 'text-colorOrange'}`}>Particulier</span>
+                        <span className={`font-semibold ${switchDiv ? 'text-colorOrange' : 'text-colorDark dark:text-colorWhite'} `}>Particulier</span>
                     </div>
 
 

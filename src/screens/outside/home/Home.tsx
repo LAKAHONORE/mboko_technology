@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import ActionButton from "../components/action-button/ActionButton";
-import Footer from "../components/footer/Footer";
-import NavBar from "../components/navbar/NavBar";
 import AboutComponent from "./components/about/AboutComponent";
 import Hero from "./components/hero/Hero";
 import ServicesComponent from "./components/services/ServicesComponent";
@@ -35,13 +33,11 @@ export default function Home() {
           <Loader />
         ) : (
           <>
-            <NavBar />
             <Hero />
             <Values />
             <AboutComponent />
             <ServicesComponent />
             <ActionButton />
-            <Footer />
           </>
         )
       }
